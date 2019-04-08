@@ -1,0 +1,11 @@
+@media (max-width: 576px) { 
+    .top_header_left, .top_header_email{
+	text-align: center;
+}
+    .top_header_right{
+    float: none;
+    text-align: center;
+}
+
+
+ }

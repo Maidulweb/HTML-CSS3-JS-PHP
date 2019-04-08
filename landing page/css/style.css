@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Landing Page*/
+.landing_page {
+	background: url('../img/demo.jpg') no-repeat center / cover;
+	color: #fff;
+}
+.landing_body{
+	background: rgba(0, 0, 0, .5);
+}
+.landing_all{
+	width: 95%;
+	margin: 0 auto;
+}
+.landing_header{
+	padding-top: 20px;
+}
+.input_text .row{
+	padding-top: 15px;
+	
+}
+.input_text input{
+	width: 100%;
+	padding: 10px 0 10px 10px;
+	border: none;
+	outline: none;
+}
+.input_checkbox{
+	padding: 20px 0;
+}
+.input_checkbox{
+	padding: 20px 0;
+}
+.input_submit{
+	padding-bottom: 30px;
+}
+.input_submit input{
+	width: 100%;
+	background: #FF38B6;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	padding: 15px 0;
+	color: #fff;
+}

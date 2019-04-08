@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+a, a:hover, a:focus{
+	text-decoration: none !important;
+}
+/* ======= Top Header ====== */
+.top_bg{
+	background: #406EB8;
+	height: 10px;
+}
+.top_header{
+	background: #DADBDC;
+}
+.header_body{
+	background: url('../img/b1.jpg') no-repeat center / cover;
+	padding-top: 50px;
+}
+.header_body img{
+	width: 100%;
+	height: auto;
+}
+.header_body h5{
+	padding-top: 20px;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.header_body h6{
+    font-size: 1rem;
+    font-style: italic;	
+}
+.header_body p{
+	    font-size: 1rem;
+	    margin-bottom: 0;
+}
+.header_body h4{
+	    font-size: 1.5rem;
+	    color: green;
+	    padding-top: 10px;
+}
+.nav{
+	padding-top: 25px;
+}
+.nav-link {
+    background: #4B96F3;
+    margin-right: 12px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px 5px 0px 0;
+}
+/* =============== 
+      Info 
+================*/
+.info_body, .chember_body{
+	background: #DADBDC;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+.chember_left{
+	text-align: center;
+	background: #fff;
+}
+.chember_left h6{
+	background: #4B96F3;
+    font-weight: 700;
+    padding: 5px 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+.chember_left h1{
+	font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    background: red;
+    border-radius: 9px;
+    margin: 0 auto;
+    width: 50%;
+}
+.chember_left p{
+	padding-top: 10px;
+}
+.chember_left h5{
+	color: #4B96F3;
+	text-transform: uppercase;
+}
+.chember_left h4{
+  background: #9EA0A3;
+  padding: 8px 0 12px 0;
+}
+.chember_left h4 a{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.social_left{
+	background: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.social_left ul li{
+	list-style: none;
+}
+.social_left ul li a{
+	font-size: 1.7rem;
+}
+.fa-facebook-f{
+	color: #3b5999;
+}
+.fa-twitter{
+	color: #55acee;
+}
+.fa-instagram{
+	color: #e4405f;
+}
+.fa-linkedin-in{
+	color: #0077B5;
+}
+.fa-google-plus-g{
+	color: #dd4b39;
+}
+.chem_bot_left{
+	text-align: center;
+	padding: 30px 0;
+	background: #fff;
+	margin-top: 10px;
+}
+.chem_bot_left ul li{
+	list-style: none;
+	padding-top: 15px;
+}
+.chem_bot_left ul li a{
+	border-bottom: 1px solid #9C9EA1;
+    padding-bottom: 3px;
+}
+.doc_p{
+	background: #ACD1F0;
+}
+/*Info Right*/
+.info_right_block{
+	padding: 10px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.p_color{
+	color: #007bff;
+	margin-bottom: 0.4rem;
+	border-bottom: 2px solid #DADBDC;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.span_black{
+    color: #000 !important; 
+}
+.info_details p{
+	margin-bottom: 0;
+    color: #007bff;
+    font-weight: 700;
+}
+.info_details a{
+	margin-left: 5px;
+    background: #9C9EA1;
+    color: #000;
+    border-radius: 5px;
+    padding: 3px 6px 3px 3px;
+}
+.info_details hr{
+	border: 1px solid #DADBDC;
+}
+.info_right_block .fa-hand-point-right {
+	color: #73777B;
+	font-size: 1.7rem;
+	margin-left: 12px;
+}
+/*===============
+     Chember
+================*/
+.chember_block{
+	padding-top: 20px;
+}
+.chember_middle img{
+	width: 100%;
+}
+.chember_right{
+	background: #fff;
+	overflow: hidden;
+	box-shadow: 0 0 3px 0px;
+	padding-top: 40px;
+}
+.chember_right h3{
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: red;
+}
+.visit_block{
+	border: 1px solid #9C9EA1;
+	margin-top: 5px;
+	text-align: center;
+}
+.chember_right p{
+	margin-bottom: 0;
+	margin-top: .2rem;
+}
+.visit_rate{
+	text-align: center;
+	padding-top: 40px;
+}
+.visit_left{
+	float: left;
+	width: 40%;
+}
+.visit_right{
+	float: right;
+	width: 60%;
+}
+.visit_left p{
+	background: #9C9EA1;
+	border: 1px solid #9C9EA1;
+	padding: 10px 0;
+}
+.visit_right p{
+	border-top: 1px solid #9C9EA1;
+	border-bottom: 1px solid #9C9EA1;
+	padding: 10px 0;
+	font-weight: 700;
+	color: #617EC3;
+}
+.visit_right p:last-child{
+	border-bottom: 0px solid #9C9EA1;
+}
+/*=========== Chember Bottom ============*/
+.chember_bottom{
+	padding-top: 20px;
+}
+.chem_bot_right{
+	text-align: center;
+	background: #fff;
+	padding: 20px;
+}
+.chem_bot_right p{
+	font-size: .8rem;
+}
+.chem_doc_block img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.chem_doc_block p{
+	margin-bottom: 0rem;
+	font-size: .7rem;
+}
+

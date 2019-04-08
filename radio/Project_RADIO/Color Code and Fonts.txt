@@ -1,0 +1,5 @@
+Header Background: #000000
+Body Background Color: #252929
+Golden Color Line: #e8ab27
+
+font-family: Calibre-Regular,TeXGyreHerosRegular,Helvetica,Tahoma,Geneva,Arial,sans-serif;

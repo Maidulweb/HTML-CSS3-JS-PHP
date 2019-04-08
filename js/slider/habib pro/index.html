@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Habib Pro Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .slider_body {
+            position: relative;
+        }
+      #slider {
+          width: 100%;
+          height: 500px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          }
+      #slider img {
+          width: 100%;
+          height: 100%;
+          
+      }
+      
+      button{
+          background: #fff;
+          border: 0;
+          outline: 0;
+          width: 50px;
+          height: 50px;
+          line-height: 50px;
+      }
+      #prev {
+          position: absolute;
+          top: 220px;
+          left: 3%;
+          bottom: 0;
+      }
+
+      #next {
+          position: absolute;
+          top: 220px;
+          right: 3%;
+          bottom: 0;
+      }
+    </style>
+</head>
+<body>
+    <div id="body">
+       <div class="slider_body">
+         <div id="slider">
+             <img src="1.jpg" alt="">
+         </div><!-- slider -->
+        <div id="slider">
+            <img src="3.jpg" alt="">
+        </div><!-- slider -->
+        <div id="slider">
+            <img src="2.jpg" alt="">
+        </div><!-- slider -->
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+       </div><!-- slider_body -->
+    </div><!-- body -->
+
+    <script>
+      var slider = document.querySelectorAll('#slider');
+      var prev = document.querySelector('#prev');
+      var next = document.querySelector('#next');
+      var current = 0;
+      function reset() {
+          for (let i = 0; i < slider.length; i++) {
+              slider[i].style.display = 'none';
+              
+          }
+      }
+
+      function starSlide() {
+          reset();
+          slider[0].style.display = 'block';
+      }
+      starSlide();
+     
+      function previous() {
+          reset();
+          slider[current - 1].style.display = 'block';
+          current--;
+          
+      }
+      function nest() {
+            reset();
+            slider[current + 1].style.display = 'block';
+            current++;
+        }
+      prev.addEventListener('click', function() {
+          if (current === 0) {
+              current = slider.length;
+          }
+          previous();
+      });
+      next.addEventListener('click', function () {
+           if (current === slider.length -1) {
+               current = -1;
+           }    
+        nest();
+        });
+        
+    </script>
+</body>
+</html>

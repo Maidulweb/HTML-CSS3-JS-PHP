@@ -1,0 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-weight: 700 !important;
+	color: green !important;
+}
+.login_body{
+	width: 60%;
+	margin: 0 auto;
+}
